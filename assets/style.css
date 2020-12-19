@@ -1,0 +1,388 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/**BOOT CSS**/
+
+.center {
+    max-width: 1200px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.center-2 {
+    max-width: 1700px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.w33 {
+    width: 33.3%;
+}
+
+.w50 {
+    padding: 0 10px;
+    width: 50%;
+}
+
+.w67 {
+    width: 66.7%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* HEADER */
+
+.topo {
+    z-index: 2;
+}
+
+.barra-menu {
+    margin-top: 15px;
+}
+
+.logo {
+    padding: 5px;
+}
+
+
+.logo h2{    
+    text-align: left;
+}
+
+.logo h2 a{
+    text-decoration: none;
+    color: #777;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.logo h2 a span{
+    font-weight: 500;
+}
+
+.logo h2 a:hover{
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.menu-desk {
+    text-align: right;
+    padding: 5px;
+}
+
+.menu-desk ul{
+    list-style-type: none;
+}
+
+.menu-desk ul li{
+    display: inline;
+}
+
+.menu-desk ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 300;
+    padding-left: 25px;
+    color: #777;
+}
+
+
+/* SECTION CORTE */
+
+.corte {
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px solid #d1d1d1; 
+}
+
+.corte-2 {
+    width: 100%;
+    border-bottom: 1px solid #d1d1d1; 
+}
+
+
+/* SECTION 1 - CAPA*/
+
+.center-section {
+    height: 940px;
+    text-align: center;
+    padding-top: 400px ;
+    border: 0;
+}
+
+.center-section h2 {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 300;
+    color: #555;
+}
+
+
+/* SECTION 2 - SOBRE JM */
+
+.sobre-jm{
+    height: 600px;
+    background-color: #f9f9f9;
+}
+
+.jm-conteudo {
+    padding: 0 2%;
+    margin-top: 150px;
+}
+
+.jm-conteudo h3 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.jm-conteudo p {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+.formacao {
+    padding: 0 25px;
+}
+
+.formacao ul{
+    list-style-type: none;
+}
+
+.formacao ul li p{
+    padding-bottom: 5px;
+} 
+
+
+/* SECTION 3 - PROJETO */
+
+section.projeto-capa{
+    height: 1000px;
+    background-image:url('../img/fundo-cinza.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.intro-proj {
+    background: none;   
+}
+
+.intro-proj h2 {
+    font-size: 35px;
+    padding-top: 390px;
+    font-weight: 300;
+    padding-left: 15px;
+}
+
+.intro-proj h2 span {
+    font-weight: 500;
+}
+
+.intro-proj p.sub-titulo {
+    padding: 10px 0;
+    padding-left: 43px;
+    font-size: 25px;
+}
+
+.intro-proj-text {
+    max-width: 350px;
+}
+
+.intro-proj-text p {
+    font-weight: 200;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+
+/* SECTION 4 - MEMORIAL JUST */
+
+.memorial-just {
+    height: 800px;
+    background: #f5f5f5;
+}
+
+.memorial-just h2{
+    font-size: 25px;
+    padding-top: 95px;
+}
+
+.memorial-just p{
+    text-align: justify;
+}
+
+.memorial-just .conteudo-1 {
+    height: 800px;
+    padding: 0 2%;
+}
+
+.memorial-just .conteudo-2 {
+    height: 800px;
+    padding: 0 2%;
+}
+
+.memorial-just .conteudo-2 h2 {
+    text-align: center;
+}
+
+.memorial-just .conteudo-3 {
+    height: 800px;
+    padding: 0 2%;
+}
+
+.memorial-just .conteudo-3 h2 {
+    text-align: right;
+}
+
+
+/* SECTION 5 - IMAGEM */
+
+section.imagem {
+    padding: 50px 0;
+}
+
+/* SECTION 6 - DESCRICAO IMG */
+
+section.descricao-imagem {
+    height: 500px;
+}
+
+.desc-a.left {
+    height: 100%;
+    background-color: #f9f9f9;
+}
+
+.desc-a.right {
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.desc-a h3{
+    padding: 50px 0;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.desc-a p{
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* FOOTER */
+
+footer {
+    background: #444;
+    width: 100%;
+    height: 35px;
+}
+
+footer h2{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 200;
+    color: #d1d1d1;
+}
+
+
+
+/* CONTATO - PAGINA */
+
+/* SECTION 1 - CONTATO-INPUT */
+
+section.contato-input {
+    height: 800px;
+}
+
+.contato-input form{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contato-input form h3 {
+    color: #555;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.contato-input input[type=text]{
+    width: 600px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 15px 0;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid #d1d1d1;
+}
+
+
+.contato-input input[type=email]{
+    width: 600px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 15px 0;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid #d1d1d1;
+}
+
+
+.contato-input textarea{
+    max-width: 600px;
+    min-width: 600px;
+    min-height: 80px;
+    max-height: 300px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 15px 0;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid #d1d1d1;
+}
+
+
+
+.contato-input input[type=submit]{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 15px 0;
+    background-color: #f5f5f5;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+
+}
+
